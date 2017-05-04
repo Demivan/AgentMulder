@@ -76,6 +76,9 @@
       <HintPath>..\..\packages\Catel.Core.4.5.4\lib\net46\Catel.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="LightInject, Version=5.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\LightInject.5.0.2\lib\net46\LightInject.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.EntityFrameworkCore, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Microsoft.EntityFrameworkCore.1.1.0\lib\net451\Microsoft.EntityFrameworkCore.dll</HintPath>
       <Private>True</Private>
@@ -365,6 +368,9 @@
     <Compile Include="Catel\RegisterTypeIfNotYetRegisteredNonGeneric.cs" />
     <Compile Include="Catel\RegisterTypeNonGeneric.cs" />
     <Compile Include="Catel\RegisterTypeNonGenericWithArgument.cs" />
+    <Compile Include="LightInject\RegisterConcreteGenericLifetime.cs" />
+    <Compile Include="LightInject\RegisterInterfaceImplementationGeneric.cs" />
+    <Compile Include="LightInject\RegisterConcreteGeneric.cs" />
     <Compile Include="Ninject\KernelTestCases\BindGenericToGeneric.cs" />
     <Compile Include="Ninject\KernelTestCases\BindGenericToNonGeneric.cs" />
     <Compile Include="Ninject\KernelTestCases\BindGenericToSelf.cs" />
